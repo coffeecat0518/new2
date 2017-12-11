@@ -35,10 +35,10 @@ public class 成績通過判斷 {
                  if (li>=80){
                      System.out.println("M");
                  }
-                    if (re >= 80) {
+                   else if (re >= 80) {
                         System.out.println("M");
                     }
-                    if (sp>=80){
+                   else if (sp>=80){
                      System.out.println("M");
                     }
                     else {
@@ -48,7 +48,6 @@ public class 成績通過判斷 {
                 else {
                     System.out.println("F");
                 }
-
                 fNum=0;
             }
         }
